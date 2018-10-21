@@ -2,5 +2,5 @@ files:
   - source: /docs/src/pages/**/*.md
     ignore:
       - /**/blog/blog-post.*.md
-      - /**/%file_name%-%two_letters_code%.md
+      - /%original_path%/%file_name%-%two_letters_code%.%file_extension%
     translation: /%original_path%/%file_name%-%two_letters_code%.%file_extension%
